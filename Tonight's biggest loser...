@@ -1,0 +1,16 @@
+class Main {
+  public static void main(String[] args) {
+    String greeting = "Matt Ban Hammered Angy Saltrinez, making Angy tonights biggest loser!";
+
+    String name = greeting.substring(18,32);
+
+    String end = greeting.substring(46);
+    
+    String beginning = greeting.substring(5,15);
+
+      System.out.println(greeting);
+      System.out.println(name);
+      System.out.println(end);
+      System.out.println(beginning);
+  }
+}
