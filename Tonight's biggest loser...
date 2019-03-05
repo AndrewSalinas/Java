@@ -1,42 +1,53 @@
 class Main {
-  public static void main(String[] args) {
-    String greeting = "Matt Ban Hammered Angy Saltrinez, making Angy tonights biggest loser!";
+    public static void main(String[] args) {
+        String greeting = "Matt Ban Hammered Angy Saltrinez, making Angy tonights biggest loser!";
 
-    String myBirth = "I was born in Austin, Texas";
+        String myBirth = "I was born in Austin, Texas";
 
 //String Greeting substrings
-    String name = greeting.substring(18,32);
+        String name = greeting.substring(18,32);
 
-    String end = greeting.substring(46);
-    
-    String beginning = greeting.substring(5,15);
+        String end = greeting.substring(46);
+
+        String beginning = greeting.substring(5,15);
 
 
 //String myBirth concatenation
-String together = greeting + " " + myBirth;
+        String together = greeting + " " + myBirth;
 
 //String Equals
-String name1 = "Jolly-Janjro";
-String name2 = "Barkton-Springs";
+        String name1 = "Jolly-Janjro";
+        String name2 = "Barkton-Springs";
 
-boolean areEqual = name1.equals(name2);
+        boolean areEqual = name1.equals(name2);
+        String namz = name1 + " " + name2;
+
+        String bored = greeting.replace("!" , "...");
+
+
+
 
 
 //Greetings
-      System.out.println(greeting);
-      System.out.println(name);
-      System.out.println(end);
-      System.out.println(beginning);
-System.out.println(" "); 
+        System.out.println(greeting);
+        System.out.println(name);
+        System.out.println(end);
+        System.out.println(beginning);
+        System.out.println(" ");
 
 //myBirth
-System.out.println(together);
+        System.out.println(together);
+        System.out.println(" ");
+        System.out.println(areEqual);
+        System.out.println(namz);
+        System.out.println(greeting.length());
+        System.out.println(" ");
+        System.out.println(bored);
+        System.out.println("");
+        System.out.println(greeting.toUpperCase());
+        System.out.println(namz.toLowerCase());
+        System.out.println(greeting.replace(" ", "-"));
+    }
 
-System.out.println(" ");
 
-System.out.println(areEqual);
-
-
-System.out.println("");
-  }
 }
